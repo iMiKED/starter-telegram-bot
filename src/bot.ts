@@ -159,7 +159,7 @@ const aboutUrlKeyboard = new InlineKeyboard().url(
 
 // Suggest commands in the menu
 bot.api.setMyCommands([
-  { command: "yo", description: "Be greeted by the bot" },
+  { command: "add", description: "Be greeted by the bot" },
   {
     command: "effect",
     description: "Apply text effects on the text. (usage: /effect [text])",
@@ -171,7 +171,7 @@ const introductionMessage = `Hello! I'm a Telegram bot.
 I'm powered by Cyclic, the next-generation serverless computing platform.
 
 <b>Commands</b>
-/yo - Be greeted by me
+/add - Be greeted by me
 /effect [text] - Show a keyboard to apply text effects to [text]`;
 
 const replyWithIntro = (ctx: any) =>
